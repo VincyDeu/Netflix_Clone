@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+}
+
+#netflix_img {
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.nav_bar > p {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nav_bar_end {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 550px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.container_account {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.container_principal {
+    background: black;
+    height: 120%
+}
+
+.container_hero {
+    margin-left: 30px;
+}
+
+.container_hero > h1 {
+    margin-bottom: 20px;
+}
+
+#img_zoom {
+    transition: transform .4s;
+}
+
+#img_zoom:hover {
+    transform: scale(1.1);
+}
+
+.footer_main_center {
+    margin-top: 500px;
+}
+
+.footer_main {
+    background-color: black;
+}
+
+.container_icon {
+    margin-left: 300px;
+}
+
+.container_icon > i {
+    margin: 10px;
+    cursor: pointer;
+    color: grey;
+}
+
+.para_one {
+    display: flex;
+    margin-left: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 50px;
+    color: grey;
+}
+
+.para_two {
+    display: flex;
+    margin-left: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 75px;
+    color: grey;
+}
+
+.para_three {
+    display: flex;
+    margin-left: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 55px;
+}
+
+.para_one > p {
+    color: grey;
+    cursor: pointer;
+}
+
+.para_two > p {
+    color: grey;
+    cursor: pointer;
+}
+
+.para_three > p {
+    color: grey;
+    cursor: pointer;
+}
+
+#contact_us {
+    margin-left: 310px;
+    color: grey;
+}
+
+#button_service {
+    width: 100px;
+    height: 30px;
+    margin-left: 310px;
+    margin-top: 30px;
+    color: grey;
+    text-decoration: none;
+    border-radius: 0.5px solid;
+    background-color: black;
+    cursor: pointer;
+}
+
+#copy_footer {
+    margin-left: 310px;
+    margin-top: 20px;
+    height: 7vh;
+    color: grey;
+}
